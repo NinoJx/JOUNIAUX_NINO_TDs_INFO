@@ -75,15 +75,15 @@ def tirunique(event):
     can.create_oval(tiragex-8,tiragey-8,tiragex+8,tiragey+8, outline="red",fill="black")
     if (tiragex-200)**2+(tiragey-200)**2<=30**2:
             Compteurglobal+=6
-    elif (tiragex-200)**2+(tiragey-200)**2<=60**2:
+    elif (tiragex-200)**2+(tiragey-200)**2<=45**2:
             Compteurglobal+=5
-    elif (tiragex-200)**2+(tiragey-200)**2<=90**2:
+    elif (tiragex-200)**2+(tiragey-200)**2<=75**2:
             Compteurglobal+=4
-    elif (tiragex-200)**2+(tiragey-200)**2<=120**2:
+    elif (tiragex-200)**2+(tiragey-200)**2<=105**2:
             Compteurglobal+=3
-    elif (tiragex-200)**2+(tiragey-200)**2<=150**2:
+    elif (tiragex-200)**2+(tiragey-200)**2<=135**2:
             Compteurglobal+=2
-    elif (tiragex-200)**2+(tiragey-200)**2<=180**2:
+    elif (tiragex-200)**2+(tiragey-200)**2<=165**2:
             Compteurglobal+=1
     lab=tkinter.Label(w,text=f"Score : {Compteurglobal} ")
     lab.grid(row=3,column=1,sticky=tkinter.W)
